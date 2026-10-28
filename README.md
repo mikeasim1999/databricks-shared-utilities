@@ -4,10 +4,10 @@ Reusable utility notebooks and queries used across Databricks projects. Called v
 
 ## Usage
 
-Clone this repo as a Git folder in Databricks, then reference notebooks from other projects:
+Clone this repo as a Git folder in Databricks under a `main/` workspace folder, then reference notebooks from other projects:
 
 ```python
-%run /Repos/<your-email>/databricks-shared-utilities/functions/data_quality_checks
+%run /Workspace/Users/<your-email>/main/databricks-shared-utilities/functions/data_quality_checks
 ```
 
 ## Structure
